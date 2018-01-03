@@ -604,11 +604,13 @@
         });
 
         if ($('.nav-dropdown').length) {
-            $(".nav-dropdown").swipe({
-                swipeLeft: function(event, direction, distance, duration, fingerCount) {
-                    $('.navbar-close').click();
-                }
-            });
+            if(typeof  $(".nav-dropdown").swipe === 'function'){
+                $(".nav-dropdown").swipe({
+                    swipeLeft: function(event, direction, distance, duration, fingerCount) {
+                        $('.navbar-close').click();
+                    }
+                });
+            }
         }
     }
 
