@@ -83,27 +83,12 @@
     </div>
 </section>
 
-<section class="mbr-section info2 cid-qFF1NKZ7SH" id="info2-r">
+<section class="features17 cid-qFEWnCKf41 cid-qFF3oaNE4R" id="info2-r">
 
-
-    <div class="container">
-        <div class="row main justify-content-center">
-            <div class="media-container-column col-12 col-lg-3 col-md-4">
-
-            </div>
-            <div class="media-container-column title col-12 col-lg-7 col-md-6">
-                <h2 class="align-right mbr-bold mbr-white pb-3 mbr-fonts-style display-2">
-                    Документи</h2>
-
-            </div>
-        </div>
+    <div class="container align-center">
+        <h2 class="mbr-section-title pb-3 mbr-fonts-style display-2">Документи</h2>
     </div>
-</section>
-
-<section class="features17 cid-qFEWnCKf41" id="features17-n">
-
-
-    <div class="container-fluid">
+    <div class="container-fluid" id="docs">
         <div class="media-container-row">
             <div class="card p-3 col-12 col-md-6 col-lg-3">
                 <a class="card-wrapper" href="https://unitedworldwrestling.org/sites/default/files/media/document/wrestling_rules_10.pdf" target="_blank">
@@ -119,7 +104,7 @@
             </div>
 
             <div class="card p-3 col-12 col-md-6 col-lg-3">
-                <a class="card-wrapper" href="/assets/docs/TranslateUWW2018.pdf" target="_blank">
+                <a class="card-wrapper" href="{{server}}/assets/docs/TranslateUWW2018.pdf" target="_blank">
                     <div class="card-img">
                         <img src="assets/images/002.png" alt="Міжнародні правила з боротьби (Російська)">
                     </div>
@@ -132,7 +117,7 @@
             </div>
 
             <div class="card p-3 col-12 col-md-6 col-lg-3">
-                <a class="card-wrapper" href="/assets/docs/vitjag.xlsx" download>
+                <a class="card-wrapper" href="{{server}}/assets/docs/vitjag.xlsx" download>
                     <div class="card-img">
                         <img src="assets/images/003.jpg" alt="Витяг з проекту єдиного календарного плану спортивних змагань України на 2018 рік">
                     </div>
@@ -145,7 +130,7 @@
             </div>
 
             <div class="card p-3 col-12 col-md-6 col-lg-3">
-                <a class="card-wrapper" href="/assets/docs/project_obl.docx" download>
+                <a class="card-wrapper" href="{{server}}/assets/docs/project_obl.docx" download>
                     <div class="card-img">
                         <img src="assets/images/004.jpg" alt="Проекту календарного плану Вінницької обл. з греко-римської боротьби на 2018 рік">
                     </div>
@@ -162,30 +147,13 @@
     </div>
 </section>
 
-<section class="mbr-section info2 cid-qFF30iV1zQ" id="info2-t">
-
-
-    <div class="container">
-        <div class="row main justify-content-center">
-            <div class="media-container-column col-12 col-lg-3 col-md-4">
-
-            </div>
-            <div class="media-container-column title col-12 col-lg-7 col-md-6">
-                <h2 class="align-right mbr-bold mbr-white pb-3 mbr-fonts-style display-2">
-                    Обласні змагання</h2>
-
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="timeline1 cid-qFF2qkDlFI" id="timeline1-s">
+<section class="timeline1 cid-qFF2qkDlFI  cid-qFF30iV1zQ" id="info2-t">
 
 
     <div class="container align-center">
 
-        <h3 class="mbr-section-subtitle pb-5 mbr-fonts-style display-5">Місця і час проведення може бути не
-            корректним</h3>
+        <h2 class="mbr-section-title pb-3 mbr-fonts-style display-2">Обласні змагання</h2>
+        <h3 class="mbr-section-subtitle pb-5 mbr-fonts-style display-5 text-white">Дані приведені тільки для ознайомлення і можуть відрізнятись від реальних</h3>
 
         <div class="container timelines-container" mbri-timelines="">
             <div class="container timelines-container" mbri-timelines="" id="local">
@@ -193,6 +161,7 @@
                         v-for="(item, index) in competitions"
                         v-bind:item="item"
                         v-bind:isreverse="index%2 === 0"
+                        v-bind:agecategories="ageCategories"
                         v-bind:key="item.id"
                 >
                 </competition>
@@ -202,36 +171,19 @@
     </div>
 </section>
 
-<section class="mbr-section info2 cid-qFF3oaNE4F" id="info2-u">
-
-
-    <div class="container">
-        <div class="row main justify-content-center">
-            <div class="media-container-column col-12 col-lg-3 col-md-4">
-
-            </div>
-            <div class="media-container-column title col-12 col-lg-7 col-md-6">
-                <h2 class="align-right mbr-bold mbr-white pb-3 mbr-fonts-style display-2">
-                    Всеукраїнські змагання</h2>
-
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="timeline1 cid-qFF3vk8pwd" id="timeline1-v">
+<section class="timeline1 cid-qFF3vk8pwd cid-qFF3oaNE4F" id="info2-u">
 
 
     <div class="container align-center">
-
-        <h3 class="mbr-section-subtitle pb-5 mbr-fonts-style display-5">Місця і час проведення може бути не
-            корректним</h3>
+        <h2 class="mbr-section-title pb-3 mbr-fonts-style display-2">Всеукраїнські змагання</h2>
+        <h3 class="mbr-section-subtitle pb-5 mbr-fonts-style display-5 text-white">Дані приведені тільки для ознайомлення і можуть відрізнятись від реальних</h3>
 
         <div class="container timelines-container" mbri-timelines="" id="national">
             <competition
                     v-for="(item, index) in competitions"
                     v-bind:item="item"
                     v-bind:isreverse="index%2 === 0"
+                    v-bind:agecategories="ageCategories"
                     v-bind:key="item.id"
             >
             </competition>

@@ -1771,6 +1771,7 @@ body {
 .cid-qFEWnCKf41 .card-box {
   background-color: #ffffff;
   padding: 2rem;
+  min-height: 150px;
 }
 .cid-qFEWnCKf41 h4 {
   font-weight: 500;
@@ -1802,7 +1803,7 @@ body {
 .cid-qFF30iV1zQ {
   padding-top: 45px;
   padding-bottom: 45px;
-  background: linear-gradient(45deg, #dbd4b8, #0f7699);
+  background: linear-gradient(90deg, #dbd4b8, #0f7699);
 }
 .cid-qFF30iV1zQ .btn {
   margin: 0 0 .5rem 0;
@@ -1916,10 +1917,15 @@ body {
     margin-right: 0 !important;
   }
 }
+.cid-qFF3oaNE4R {
+  padding-top: 45px;
+  padding-bottom: 45px;
+  background: linear-gradient(90deg, #dbd4b8, #cc8b17);
+}
 .cid-qFF3oaNE4F {
   padding-top: 45px;
   padding-bottom: 45px;
-  background: linear-gradient(45deg, #dbd4b8, #cc2952);
+  background: linear-gradient(90deg, #dbd4b8, #cc2952);
 }
 .cid-qFF3oaNE4F .btn {
   margin: 0 0 .5rem 0;

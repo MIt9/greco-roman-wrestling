@@ -1,5 +1,5 @@
 Vue.component('competition', {
-    props: ['item', 'isreverse'],
+    props: ['item', 'isreverse', 'agecategories'],
     template: '<div class="row timeline-element separline" v-bind:class="{reverse: isreverse}">' +
     '                 <div class="timeline-date-panel col-xs-12 col-md-6  " v-bind:class="{\'align-left\': isreverse, \'align-right\': !isreverse}">' +
     '                    <div class="time-line-date-content">' +
@@ -19,26 +19,56 @@ Vue.component('competition', {
     '  <dd class="col-sm-7">{{item.city}}</dd>' +
     '  <dt class="col-sm-5">Команда</dt>' +
     '  <dd class="col-sm-7">{{item.participants}}</dd>' +
+    '  <dt class="col-sm-5">Вік</dt>' +
+    '  <dd class="col-sm-7">{{item.ageFrom}}-{{item.ageTo}}</dd>' +
+    '  <dt class="col-sm-5">Категорії</dt>' +
+    '  <dd class="col-sm-7">{{agecategories[item.ageCategories].join(", ")}}</dd>' +
     '</dl>' +
     '                 </div>' +
     '            </div>' +
     '            </div>'
 });
+var server = window.location.href.replace('/index.html','');
 var local = new Vue({
     el: '#local',
     data: {
-        competitions: []
+        competitions: [],
+        ageCategories: {
+            Schoolboys:[],
+            Cadets:[],
+            Juniors:[],
+            Seniors:[],
+            SeniorsU23:[]
+        }
     }
 });
 var national = new Vue({
     el: '#national',
     data: {
-        competitions: []
+        competitions: [],
+        ageCategories: {
+            Schoolboys:[],
+            Cadets:[],
+            Juniors:[],
+            Seniors:[],
+            SeniorsU23:[]
+        }
     }
 });
-axios.get(window.location.href.replace('/index.html','') + '/assets/json/competiton.json')
+var docs = new Vue({
+    el: '#docs',
+    data: {
+        server: server,
+    }
+});
+axios.get(server + '/assets/json/competition.json')
     .then(function (response) {
         redirectResult(response.data);
+        return axios.get(server + '/assets/json/ageCategories.json')
+    })
+    .then(function (response) {
+        national.ageCategories = response.data;
+        local.ageCategories = response.data;
     })
     .catch(function (error) {
         console.error(error);
