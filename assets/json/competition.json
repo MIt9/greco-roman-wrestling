@@ -8,8 +8,9 @@
     "endingDay": "2018-01-20",
     "ageFrom": "2001",
     "ageTo": "2003",
-    "ageCategories": "Cadets",
-    "id": "15843942"
+    "ageCategories": "cadets",
+    "id": "15843942",
+    "datestamp": "1515032562348"
   },
   {
     "title": "Чемпіонат області серед юніорів 1998-2001 рр.н.",
@@ -20,8 +21,9 @@
     "endingDay": "2018-01-10",
     "ageFrom": "1998",
     "ageTo": "2001",
-    "ageCategories": "Juniors",
-    "id": "15843943"
+    "ageCategories": "juniors",
+    "id": "15843943",
+    "datestamp": "1515032562348"
   },
   {
     "title": "Чемпіонат області серед чоловіків до 23-х років",
@@ -32,8 +34,9 @@
     "endingDay": "2018-02-17",
     "ageFrom": "1995",
     "ageTo": "1998",
-    "ageCategories": "SeniorsU23",
-    "id": "15843944"
+    "ageCategories": "seniorsU23",
+    "id": "15843944",
+    "datestamp": "1515032562348"
   },
   {
     "title": "Чемпіонат області серед юнаків 2003-2005 рр.н.",
@@ -44,8 +47,9 @@
     "endingDay": "2018-03-10",
     "ageFrom": "2003",
     "ageTo": "2005",
-    "ageCategories": "Schoolboys",
-    "id": "15843945"
+    "ageCategories": "schoolboys",
+    "id": "15843945",
+    "datestamp": "1515032562348"
   },
   {
     "title": "Чемпіонат області серед чоловіків",
@@ -56,8 +60,9 @@
     "endingDay": "2018-05-19",
     "ageFrom": "1950",
     "ageTo": "1998",
-    "ageCategories": "Seniors",
-    "id": "15843946"
+    "ageCategories": "seniors",
+    "id": "15843946",
+    "datestamp": "1515032562348"
   },
   {
     "title": "Командний чемпіонат області серед чоловіків",
@@ -68,8 +73,9 @@
     "endingDay": "2018-07-07",
     "ageFrom": "1950",
     "ageTo": "1998",
-    "ageCategories": "Seniors",
-    "id": "15843947"
+    "ageCategories": "seniors",
+    "id": "15843947",
+    "datestamp": "1515032562348"
   },
   {
     "title": "Чемпіонат області серед юнаків 2004-2006 рр.н.",
@@ -80,8 +86,9 @@
     "endingDay": "2018-09-08",
     "ageFrom": "2004",
     "ageTo": "2006",
-    "ageCategories": "Schoolboys",
-    "id": "15843948"
+    "ageCategories": "schoolboys",
+    "id": "15843948",
+    "datestamp": "1515032562348"
   },
   {
     "title": "Чемпіонат області серед кадетів 2002-2004 рр.н.",
@@ -92,8 +99,9 @@
     "endingDay": "2018-10-06",
     "ageFrom": "2002",
     "ageTo": "2004",
-    "ageCategories": "Cadets",
-    "id": "15843949"
+    "ageCategories": "cadets",
+    "id": "15843949",
+    "datestamp": "1515032562348"
   },
   {
     "title": "Чемпіонат області серед юніорів 1999-2002 рр.н.",
@@ -104,8 +112,9 @@
     "endingDay": "2018-10-13",
     "ageFrom": "1999",
     "ageTo": "2002",
-    "ageCategories": "Juniors",
-    "id": "15843950"
+    "ageCategories": "juniors",
+    "id": "15843950",
+    "datestamp": "1515032562348"
   },
   {
     "title": "12 Відкритий міський турнір ",
@@ -116,8 +125,9 @@
     "endingDay": "2018-11-18",
     "ageFrom": "1998",
     "ageTo": "2005",
-    "ageCategories": "Cadets",
-    "id": "15843951"
+    "ageCategories": "cadets",
+    "id": "15843951",
+    "datestamp": "1515032562348"
   },
   {
     "title": "Кубок області серед чоловіків",
@@ -128,8 +138,9 @@
     "endingDay": "2018-11-24",
     "ageFrom": "1950",
     "ageTo": "1998",
-    "ageCategories": "Seniors",
-    "id": "15843952"
+    "ageCategories": "seniors",
+    "id": "15843952",
+    "datestamp": "1515032562348"
   },
   {
     "title": "Чемпіонат області серед молодших юнаків 2005-2007 рр.н.",
@@ -140,8 +151,9 @@
     "endingDay": "2018-12-08",
     "ageFrom": "2005",
     "ageTo": "2007",
-    "ageCategories": "Schoolboys",
-    "id": "15843953"
+    "ageCategories": "schoolboys",
+    "id": "15843953",
+    "datestamp": "1515032562348"
   },
   {
     "title": "Всеукраїнський турнір пам'яті Є.Трухіна(мастерський)",
@@ -152,8 +164,9 @@
     "endingDay": "2018-01-25",
     "ageFrom": "1999",
     "ageTo": "2000",
-    "ageCategories": "Juniors",
-    "id": "15843954"
+    "ageCategories": "juniors",
+    "id": "15843954",
+    "datestamp": "1515032562348"
   },
   {
     "title": "Чемпіонат України серед кадетів 2001-2002 рр.н.",
@@ -164,32 +177,35 @@
     "endingDay": "2018-02-03",
     "ageFrom": "2001",
     "ageTo": "2002",
-    "ageCategories": "Cadets",
-    "id": "15843955"
+    "ageCategories": "cadets",
+    "id": "15843955",
+    "datestamp": "1515032562348"
   },
   {
     "title": "Міжнародний турнір серед кадетів",
     "type": "national",
     "city": "Кишинів(Молдова)",
-    "participants": "5-6 чоловік добові",
+    "participants": "5-6 чоловік",
     "startingDay": "2018-02-02",
     "endingDay": "2018-02-20",
     "ageFrom": "2001",
     "ageTo": "2002",
-    "ageCategories": "Cadets",
-    "id": "15843956"
+    "ageCategories": "cadets",
+    "id": "15843956",
+    "datestamp": "1515032562348"
   },
   {
     "title": "Міжнародний турнір серед кадетів та юнаків",
     "type": "national",
     "city": "Ліда(Білорусь)",
-    "participants": "5-6 чоловік добові",
+    "participants": "5-6 чоловік",
     "startingDay": "2018-02-03",
     "endingDay": "2018-02-21",
     "ageFrom": "2001",
     "ageTo": "2004",
-    "ageCategories": "Cadets",
-    "id": "15843957"
+    "ageCategories": "cadets",
+    "id": "15843957",
+    "datestamp": "1515032562348"
   },
   {
     "title": "Чемпіонат України серед юніорів 1998-2000 рр.н.",
@@ -200,8 +216,9 @@
     "endingDay": "2018-03-06",
     "ageFrom": "1998",
     "ageTo": "2000",
-    "ageCategories": "Juniors",
-    "id": "15843958"
+    "ageCategories": "juniors",
+    "id": "15843958",
+    "datestamp": "1515032562348"
   },
   {
     "title": "Чемпіонат України серед чоловіків до 23-х років",
@@ -212,8 +229,9 @@
     "endingDay": "2018-03-23",
     "ageFrom": "1995",
     "ageTo": "1998",
-    "ageCategories": "SeniorsU23",
-    "id": "15843959"
+    "ageCategories": "seniorsU23",
+    "id": "15843959",
+    "datestamp": "1515032562348"
   },
   {
     "title": "Чемпіонат України(західна зона) серед юнаків 2003-2004 рр.н.",
@@ -224,8 +242,9 @@
     "endingDay": "2018-04-02",
     "ageFrom": "2003",
     "ageTo": "2004",
-    "ageCategories": "Schoolboys",
-    "id": "15843960"
+    "ageCategories": "schoolboys",
+    "id": "15843960",
+    "datestamp": "1515032562348"
   },
   {
     "title": "Чемпіонат України(західна зона) серед кадетів 2001-2002 рр.н.",
@@ -236,8 +255,9 @@
     "endingDay": "2018-04-03",
     "ageFrom": "2001",
     "ageTo": "2002",
-    "ageCategories": "Cadets",
-    "id": "15843961"
+    "ageCategories": "cadets",
+    "id": "15843961",
+    "datestamp": "1515032562348"
   },
   {
     "title": "Чемпіонат України серед юнаків 2003-2004 рр.н.",
@@ -248,8 +268,9 @@
     "endingDay": "2018-04-04",
     "ageFrom": "2003",
     "ageTo": "2004",
-    "ageCategories": "Schoolboys",
-    "id": "15843962"
+    "ageCategories": "schoolboys",
+    "id": "15843962",
+    "datestamp": "1515032562348"
   },
   {
     "title": "Всеукраїнський турнір пам'яті В.Гепи серед кадетів(відбірковий до ЧС)",
@@ -260,32 +281,35 @@
     "endingDay": "2018-05-22",
     "ageFrom": "2001",
     "ageTo": "2002",
-    "ageCategories": "Cadets",
-    "id": "15843963"
+    "ageCategories": "cadets",
+    "id": "15843963",
+    "datestamp": "1515032562348"
   },
   {
     "title": "Міжнародний турнір серед юніорів",
     "type": "national",
     "city": "Сорока(Молдова)",
-    "participants": "5-6 чоловік добові",
+    "participants": "5-6 чоловік",
     "startingDay": "2018-05-25",
     "endingDay": "2018-05-27",
     "ageFrom": "1998",
     "ageTo": "2000",
-    "ageCategories": "Juniors",
-    "id": "15843964"
+    "ageCategories": "juniors",
+    "id": "15843964",
+    "datestamp": "1515032562348"
   },
   {
     "title": "Міжнародний турнір серед юнаків",
     "type": "national",
     "city": "Тімішоара(Румунія)",
-    "participants": "5-6 чоловік добові",
+    "participants": "5-6 чоловік",
     "startingDay": "2018-06-01",
     "endingDay": "2018-06-30",
     "ageFrom": "2003",
     "ageTo": "2004",
-    "ageCategories": "Schoolboys",
-    "id": "15843965"
+    "ageCategories": "schoolboys",
+    "id": "15843965",
+    "datestamp": "1515032562348"
   },
   {
     "title": "Чемпіонат України серед чоловіків",
@@ -296,8 +320,9 @@
     "endingDay": "2018-06-24",
     "ageFrom": "1950",
     "ageTo": "1998",
-    "ageCategories": "Seniors",
-    "id": "15843966"
+    "ageCategories": "seniors",
+    "id": "15843966",
+    "datestamp": "1515032562348"
   },
   {
     "title": "Всеукраїнський турнір пам'яті Є.Ворка серед юніорів(відбірковий до ЧС)",
@@ -308,8 +333,9 @@
     "endingDay": "2018-08-19",
     "ageFrom": "2001",
     "ageTo": "2002",
-    "ageCategories": "Juniors",
-    "id": "15843967"
+    "ageCategories": "juniors",
+    "id": "15843967",
+    "datestamp": "1515032562348"
   },
   {
     "title": "Командний чемпіонат України серед юнаків 2004-2005 рр.н.",
@@ -320,8 +346,9 @@
     "endingDay": "2018-09-23",
     "ageFrom": "2004",
     "ageTo": "2005",
-    "ageCategories": "Schoolboys",
-    "id": "15843968"
+    "ageCategories": "schoolboys",
+    "id": "15843968",
+    "datestamp": "1515032562348"
   },
   {
     "title": "Чемпіонат України серед кадетів 2002-2003 рр.н.",
@@ -332,20 +359,22 @@
     "endingDay": "2018-10-29",
     "ageFrom": "2002",
     "ageTo": "2003",
-    "ageCategories": "Cadets",
-    "id": "15843969"
+    "ageCategories": "cadets",
+    "id": "15843969",
+    "datestamp": "1515032562348"
   },
   {
     "title": "Міжнародний турнір серед кадетів та юнаків",
     "type": "national",
     "city": "Флорешти(Молдова)",
-    "participants": "5-6 чоловік добові",
+    "participants": "5-6 чоловік",
     "startingDay": "2018-11-01",
     "endingDay": "2018-11-30",
     "ageFrom": "2001",
     "ageTo": "2004",
-    "ageCategories": "Cadets",
-    "id": "15843970"
+    "ageCategories": "cadets",
+    "id": "15843970",
+    "datestamp": "1515032562348"
   },
   {
     "title": "Кубок України серед юніорів 1999-2001 рр.н.",
@@ -356,8 +385,9 @@
     "endingDay": "2018-11-10",
     "ageFrom": "1999",
     "ageTo": "2001",
-    "ageCategories": "Juniors",
-    "id": "15843971"
+    "ageCategories": "juniors",
+    "id": "15843971",
+    "datestamp": "1515032562348"
   },
   {
     "title": "Кубок України серед чоловіків",
@@ -368,7 +398,8 @@
     "endingDay": "2018-12-02",
     "ageFrom": "1950",
     "ageTo": "1998",
-    "ageCategories": "Seniors",
-    "id": "15843972"
+    "ageCategories": "seniors",
+    "id": "15843972",
+    "datestamp": "1515032562348"
   }
 ]

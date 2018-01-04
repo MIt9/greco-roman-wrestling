@@ -29,36 +29,19 @@ Vue.component('competition', {
     '            </div>'
 });
 var server = window.location.href.replace('/index.html','');
-var local = new Vue({
-    el: '#local',
+var app = new Vue({
+    el: '#app',
     data: {
-        competitions: [],
-        ageCategories: {
-            Schoolboys:[],
-            Cadets:[],
-            Juniors:[],
-            Seniors:[],
-            SeniorsU23:[]
-        }
-    }
-});
-var national = new Vue({
-    el: '#national',
-    data: {
-        competitions: [],
-        ageCategories: {
-            Schoolboys:[],
-            Cadets:[],
-            Juniors:[],
-            Seniors:[],
-            SeniorsU23:[]
-        }
-    }
-});
-var docs = new Vue({
-    el: '#docs',
-    data: {
+        local: [],
+        national: [],
         server: server,
+        ageCategories: {
+            schoolboys:[],
+            cadets:[],
+            juniors:[],
+            seniors:[],
+            seniorsU23:[]
+        }
     }
 });
 axios.get(server + '/assets/json/competition.json')
@@ -67,8 +50,7 @@ axios.get(server + '/assets/json/competition.json')
         return axios.get(server + '/assets/json/ageCategories.json')
     })
     .then(function (response) {
-        national.ageCategories = response.data;
-        local.ageCategories = response.data;
+        app.ageCategories = response.data;
     })
     .catch(function (error) {
         console.error(error);
@@ -91,6 +73,6 @@ function redirectResult(_data) {
             nationalArray.push(item);
         }
     }
-    national.competitions = nationalArray;
-    local.competitions = localArray;
+    app.national = nationalArray;
+    app.local = localArray;
 }
